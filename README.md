@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O MDBotões e Cursores é uma demostração de conhecimento.
 
-- [Acesse o projeto finalizado, online](https://maladro2010.github.io/MDPlayer/)
+- [Acesse o projeto finalizado, online](https://maladro2010.github.io/MDBotoes-e-Cursores/)
 
 ## 🔖 Layout
 
