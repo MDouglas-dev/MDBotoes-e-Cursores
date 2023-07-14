@@ -1,0 +1,121 @@
+/* Fonts Google */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #0B0911;
+    --bg-btn-list: #1C162C;
+    --font-color-1: #FFFFFF;
+    --bg-test-btn: #130F1E;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+table, th, td {
+    border: none;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+table {
+    border-radius: 8px;
+}
+
+.views-botoes {
+    width: 958px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 107px 76px 110px 77px;
+}
+
+.views-botoes--texts {
+    padding-bottom: 32px;
+}
+
+.views-botoes--h1 {
+    color: var(--font-color-1);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.views-botoes--p {
+    color: var(--font-color-1);
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#table-btns {
+    width: 100%;
+    background: var(--bg-btn-list);
+    border-collapse: collapse;
+}
+
+.table-thead--tr {
+    width: 100%;
+    height: 64px;
+}
+
+.table-thead--tr td {
+    color: var(--font-color-1);
+    font-size: 11px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+
+.table-tbody--tr {
+    color: var(--font-color-1);
+    text-align: center;
+}
+.table-tbody--tr td {
+    font-size: 11px;
+    padding: 10px;
+    font-family: 'Roboto',sans-serif;
+    background: #000;
+}
+
+.table-tbody--tr td:nth-child(1) {
+    background: var(--bg-btn-list);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.views-testbtn {
+    width: 348px;
+    height: 100%;
+    display: flex;
+    padding: 107px 44px 478px 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 68px;
+    background: var(--bg-test-btn);
+}
+.views-testbtn--texts h1{
+    color: var(--font-color-1);
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.views-testbtn--texts p {
+    color: var(--font-color-1);
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
