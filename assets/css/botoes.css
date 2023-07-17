@@ -12,8 +12,8 @@
 }
 
 .btn img {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
 }
 
 /* PRIMARY */
@@ -49,6 +49,29 @@
 
 .secondary:focus {
     border: 2px solid #D9cDF7;
+}
+
+.secondary:disabled {
+    background: #3c3748;
+    opacity: 0.56;
+}
+
+/* Tertiary */
+.tertiary {
+    background: transparent;
+    color: white;
+}
+
+.tertiary:hover {
+    opacity: .56;
+}
+
+.tertiary:focus {
+    border: 2px solid #D9cDF7;
+}
+
+.tertiary:disabled {
+    opacity: .56;
 }
 
 /* Animation Img Btn */
