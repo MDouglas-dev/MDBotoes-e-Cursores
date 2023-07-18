@@ -16,6 +16,15 @@
     height: 24px;
 }
 
+.btn-init {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: 44px;
+}
+
 /* PRIMARY */
 
 .primary {
@@ -32,6 +41,7 @@
 }
 
 .primary:disabled {
+    background: #8257E5;
     opacity: 0.56;
     cursor: not-allowed;
 }
@@ -54,6 +64,7 @@
 .secondary:disabled {
     background: #3c3748;
     opacity: 0.56;
+    cursor: not-allowed;
 }
 
 /* Tertiary */
@@ -72,15 +83,26 @@
 
 .tertiary:disabled {
     opacity: .56;
+    cursor: not-allowed;
 }
 
+.tertiary::backdrop {
+    cursor: not-allowed;
+}
+
+.load {
+    cursor: progress;
+}
+
+.move {
+    cursor: move;
+}
 /* Animation Img Btn */
 
 .loading {
     width: 16px;
     height: 16px;
     animation: loading .3s infinite;
-    cursor: progress;
 }
 
 @keyframes loading {

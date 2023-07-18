@@ -56,16 +56,16 @@
                             </tr>
                             <tr class="table-tbody--tr">
                                 <td>LOADING</td>
-                                <td><button class="btn primary"><img class="loading" src="./assets/loading.png" alt="img-loading">LOADING PRIMARY</button></td>
-                                <td><button class="btn secondary"><img class="loading" src="./assets/loading.png" alt="img-loading">LOADING secondary</button></td>
-                                <td><button class="btn tertiary"><img class="loading" src="./assets/loading.png" alt="img-loading">LOADING tertiary</button></td>
+                                <td><button class="btn primary load"><img class="loading" src="./assets/loading.png" alt="img-loading">LOADING PRIMARY</button></td>
+                                <td><button class="btn secondary load"><img class="loading" src="./assets/loading.png" alt="img-loading">LOADING secondary</button></td>
+                                <td><button class="btn tertiary load"><img class="loading" src="./assets/loading.png" alt="img-loading">LOADING tertiary</button></td>
                                 <td><img src="./assets/mouse-load.png" alt="imagem do cursor do mouse-load"></td>
                             </tr>
                             <tr class="table-tbody--tr">
                                 <td>MOVABLE</td>
-                                <td><button class="btn primary"><img src="./assets/reorder-three.png" alt="img-movable">MOVABLE PRIMARY</button></td>
-                                <td><button class="btn secondary"><img src="./assets/reorder-three.png" alt="img-movable">MOVABLE secondary</button></td>
-                                <td><button class="btn tertiary"><img src="./assets/reorder-three.png" alt="img-movable">MOVABLE tertiary</button></td>
+                                <td><button class="btn primary move"><img src="./assets/reorder-three.png" alt="img-movable">MOVABLE PRIMARY</button></td>
+                                <td><button class="btn secondary move"><img src="./assets/reorder-three.png" alt="img-movable">MOVABLE secondary</button></td>
+                                <td><button class="btn tertiary move"><img src="./assets/reorder-three.png" alt="img-movable">MOVABLE tertiary</button></td>
                                 <td><img src="./assets/mouse-move.png" alt="imagem do cursor do mouse-move"></td>
                             </tr>
                     </tbody>
@@ -76,11 +76,12 @@
                 <h1>Teste os botões</h1>
                 <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
             </div>
-            <div class="btn-inti">
-                <button class="btn btn-primary-default">INTERAJA COMIGO</button>
+            <div class="btn-init">
+                <button class="btn primary" onclick="loading()">INTERAJA COMIGO</button>
+                <button class="btn secondary" disabled>INTERAJA COMIGO</button>
+                <button class="btn tertiary move"><img src="./assets/reorder-three.png" alt="img-movable">INTERAJA COMIGO</button>
             </div>
         </div>
     </div>
-   <!-- <script src="./assets/js/script.js"></script> -->
 </body>
 </html>
